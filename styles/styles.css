@@ -16,7 +16,7 @@ p.text-red{
   left: 0;
   width: 100%;
   height: 100%;
-   background-image: url('src/hero-tienda.jpg');
+   background-image: url('/src/hero-tienda.jpg');
    background-size: cover; 
    filter: blur(0px); 
    z-index: -1;
@@ -24,7 +24,7 @@ p.text-red{
 
 .hero{
    height: 750px;
-   background-image: url('src/hero.jpg');
+   background-image: url('/src/hero.jpg');
    background-size: cover; 
    background-repeat: no-repeat; 
    background-attachment: fixed;
