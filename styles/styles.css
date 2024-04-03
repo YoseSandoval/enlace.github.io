@@ -108,24 +108,3 @@ div.card-hover:hover, img.card-hover:hover{
    height: 1rem;
  }
 
- .carousel {
-   height: 200px; /* Altura del carrusel */
-   overflow: hidden; /* Para ocultar el contenido que se desborda */
- }
- 
- .card {
-   width: 200px; /* Ancho de cada tarjeta */
-   height: 100px; /* Altura de cada tarjeta */
-   margin-right: 10px; /* Espacio entre tarjetas */
- }
- 
- .card-deck {
-   display: flex;
-   flex-wrap: nowrap; /* Para que las tarjetas no se envuelvan */
- }
- 
- .carousel-control-prev,
- .carousel-control-next {
-   height: 100%; /* Ajuste de altura de los controles */
- }
-
