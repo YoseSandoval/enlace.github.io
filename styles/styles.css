@@ -1,0 +1,131 @@
+body{
+   font-family: 'Poppins';
+}
+
+p.text-shadow{
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+} 
+
+p.text-red{
+   color: #00174B;
+}
+
+.fondo-desenfocado{
+   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+   background-image: url('src/hero-tienda.jpg');
+   background-size: cover; 
+   filter: blur(0px); 
+   z-index: -1;
+}
+
+.hero{
+   height: 750px;
+   background-image: url('src/hero.jpg');
+   background-size: cover; 
+   background-repeat: no-repeat; 
+   background-attachment: fixed;
+   background-repeat: repeat;
+   display: flex;
+   align-items: center;
+}
+
+#sobreNosotros{
+   background-color: #FCF8F3;
+   width: 100vw;
+}
+
+.text-dark-blue{
+   color: #00174B;
+}
+
+div.card-hover:hover, img.card-hover:hover{
+   transform: translateY(-5px); 
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.2);
+}
+
+.b-example-divider {
+   width: 100%;
+   height: 1rem;
+   background-color: rgba(0, 0, 0, .1);
+   border: solid rgba(0, 0, 0, .15);
+   border-width: 1px 0;
+   box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+ }
+
+ .dropdown:hover .dropdown-menu {
+   display: block;
+ }
+
+ .precio{
+   font-size: 1.5rem;
+ }
+
+
+
+ input[type="number"] {
+   -webkit-appearance: none;
+   -moz-appearance: textfield;
+   appearance: textfield;
+   width: 75px; /* Ancho del input */
+   padding: 5px; /* Espaciado interno */
+   text-align: center; /* Alineación del texto */
+ }
+
+ 
+ /* Estilo de fondo cuando se enfoca */
+ input[type="number"]:focus {
+   outline: none; /* Eliminar el contorno por defecto */
+   background-color: #f5f5f5; /* Color de fondo */
+ }
+
+ /* Estilo de borde */
+ input[type="number"] {
+   border: 1px solid #9F9F9F; /* Borde del input */
+   border-radius: 10px; /* Radio de borde */
+ }
+
+ 
+
+ .breadcrumb-chevron {
+   --bs-breadcrumb-divider: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%236c757d'%3E%3Cpath fill-rule='evenodd' d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E");
+   gap: .5rem;
+ }
+ .breadcrumb-chevron .breadcrumb-item {
+   display: flex;
+   gap: inherit;
+   align-items: center;
+   padding-left: 0;
+   line-height: 1;
+ }
+ .breadcrumb-chevron .breadcrumb-item::before {
+   gap: inherit;
+   float: none;
+   width: 1rem;
+   height: 1rem;
+ }
+
+ .carousel {
+   height: 200px; /* Altura del carrusel */
+   overflow: hidden; /* Para ocultar el contenido que se desborda */
+ }
+ 
+ .card {
+   width: 200px; /* Ancho de cada tarjeta */
+   height: 100px; /* Altura de cada tarjeta */
+   margin-right: 10px; /* Espacio entre tarjetas */
+ }
+ 
+ .card-deck {
+   display: flex;
+   flex-wrap: nowrap; /* Para que las tarjetas no se envuelvan */
+ }
+ 
+ .carousel-control-prev,
+ .carousel-control-next {
+   height: 100%; /* Ajuste de altura de los controles */
+ }
+
